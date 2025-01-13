@@ -1,0 +1,200 @@
+@media screen and  (max-width: 1326px) {
+    .sec2-cards {
+        justify-content: center;
+    }
+
+    .sec3-cards {
+        justify-content: center;
+    }
+
+    .sec4-cards {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1252px) {
+    .footer-contacts {
+        display: block !important;
+        flex-basis: 100%;
+        margin-top: 30px;
+    }
+
+    .label {
+        display: block !important;
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+
+    .breadcrumbs {
+        display: none;
+    }
+
+    .main h1 {
+        font-size: 20px;
+    }
+
+    .header-bottom-content {
+        display: block;
+    }
+
+    .header-logo {
+        display: block;
+    }
+
+    .header-logo img {
+        display: block;
+        width: 157px;
+        height: 34px;
+    }
+
+    .order-number p {
+        display: none;
+    }
+
+    .order-number b {
+        font-size: 14px;
+        line-height: 1.57175;
+        color: #125dc2;
+    }
+
+    .order-number {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .header-cart {
+        display: block;
+        top: -52px;
+        right: 1px;
+    }
+
+    .cart-tbl-row.tbl-title {
+        display: none;
+    }
+
+    .cart-tbl-block {
+        overflow: visible;
+    }
+
+    .cart-tbl-block div {
+        display: block;
+    }
+
+    .cart-tbl-row {
+        display: block;
+        padding: 24px 21px 17px 20px;
+        margin: 13px 0;
+        border: 1px solid #ebebeb;
+    }
+
+    .cart-tbl-row div {
+        display: inline-block;
+    }
+
+    .cart-tbl-row div:nth-child(2), .cart-tbl-row:not(:first-child) div:nth-child(3) {
+        width: max-content;
+    }
+
+    .cart-tbl-row div:nth-child(2), .cart-tbl-row div:nth-child(3), .cart-tbl-row div:nth-child(1) {
+        border: none;
+    }
+
+    .cart-tbl-row:not(:first-child) div {
+        border: none;
+    }
+
+    .cart-tbl-row .price-kg, .cart-tbl-row .count, .cart-tbl-row .final-price {
+        align-content: center;
+        padding: 0;
+    }
+
+    .cart-tbl-row div:first-child {
+        display: block;
+        padding: 0 0 12px;
+    }
+
+    .cart-tbl-row .price-kg {
+        color: #2f80ed;
+        margin-right: 46px;
+    }
+
+    .cart-tbl-row span {
+        display: inline-block;
+    }
+
+    .cart-tbl-row .final-price {
+        display: block;
+        width: 100% !important;
+        margin: 13px 0 0;
+        padding-top: 6px;
+        border-top: 1px solid #000 !important;
+    }
+
+    .sec2-card1, .sec2-card2 {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 15px 39px 28px 38px;
+    }
+
+    .card-content {
+        padding: 20px 0 0;
+    }
+
+    .card-content h3 {
+        margin: 0;
+    }
+
+    .card-content p {
+        margin: 7px 0 10px;
+    }
+
+    .card-content a {
+        margin: 0;
+    }
+
+    .sec2-card1 img, .sec2-card2 img {
+        margin: auto;
+        max-width: 180px;
+    }
+
+    .sec2-card2 .card-content h3 {
+        margin: 0;
+    }
+
+    .sec2-card2 .card-content p {
+        margin: 7px 0 12px
+    }
+
+    .sec2-card2 .card-content a {
+        margin: 0;
+    }
+
+    .sec3-card-main {
+        flex-direction: column;
+    }
+
+    .sec3-card img {
+        display: block;
+        margin: auto;
+        padding: 15px 0;
+    }
+
+    .sec3-card-content {
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .sec3-card-content span {
+        display: block;
+    }
+
+    .category-meal {
+        margin: 20px 0 26px;
+    }
+
+    .footer {
+        margin: 83px 0 0;
+    }
+}
